@@ -9,7 +9,7 @@ from telegram.ext import Application, CallbackQueryHandler, CommandHandler, Cont
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 
-with open("data/chapter1.json", "r", encoding="utf-8") as f:
+with open("chapter1.json", "r", encoding="utf-8") as f:
     CHAPTER1 = json.load(f)
 
 LANG_LABELS = {
